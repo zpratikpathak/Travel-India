@@ -12,6 +12,23 @@ section {
   min-height: 100vh;
 }
 
+section .bannerVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section .bannerVideo video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .container {
   position: relative;
   padding: 0 100px;
