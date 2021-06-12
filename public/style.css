@@ -125,3 +125,19 @@ section {
   display: inline-block;
   max-height: 24px;
 }
+
+.controls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+
+.controls li {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
