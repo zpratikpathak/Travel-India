@@ -43,6 +43,17 @@ section .bannerVideo video.active {
   min-height: 100vh;
 }
 
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  box-shadow: 10px 0 15px rgba(0, 0, 0, 0.05);
+}
+
 .container header {
   position: absolute;
   top: 0;
