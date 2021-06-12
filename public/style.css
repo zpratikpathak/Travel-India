@@ -27,6 +27,11 @@ section .bannerVideo video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0;
+}
+
+section .bannerVideo video.active {
+  opacity: 1;
 }
 
 .container {
