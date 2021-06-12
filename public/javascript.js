@@ -25,3 +25,15 @@ document.getElementById("nextSlide").addEventListener("click", () => {
   i = (i + 1) % slidesText.length;
   slidesText[i].classList.add("active");
 });
+
+// function toggleMenu() {
+//   const menuIcon = document.querySelector(".menuIcon");
+//   menuIcon.classList.toggle("active");
+// }
+
+document.getElementById("menuIcon").addEventListener("click", () => {
+  const menuIcon = document.querySelector(".menuIcon");
+  const navbar = document.getElementById("navbar");
+  menuIcon.classList.toggle("active");
+  navbar.classList.toggle("active");
+});
