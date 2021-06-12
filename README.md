@@ -1,5 +1,6 @@
 # Travel-India
-Travel India is a website which gives tourism information of INDIA.
+Travel India is a website that gives tourism information about INDIA.
+
 
 ## Requirements
 - Install nodeJS 14 [(Click here to download)](https://nodejs.org/dist/v14.17.0/node-v14.17.0-x64.msi "NodeJS Download")
